@@ -18,9 +18,7 @@ botonAgregarArticulo.addEventListener('click', function(){
 
 const botonCrearEstilo = document.querySelectorAll('button')[2];
 botonCrearEstilo.addEventListener('click', function(){
-    const body = document.querySelector('body');
-    const textoEstilo = crearEstilo();
-    body.appendChild(textoEstilo);
+    document.body.appendChild(crearEstilo());
 });
 
 
