@@ -18,7 +18,8 @@
     contenedorCss.innerHTML = "<b> Miguel Serrano Medina </b>";
     contenedorCss.style.color = "red";
     contenedorCss.style.fontSize = "2rem";
-    
+    contenedorCss.id = "estiloso"
+    contenedorCss.className = 'nombreApellido';
    return contenedorCss;
 
 }
